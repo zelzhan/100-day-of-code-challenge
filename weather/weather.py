@@ -1,8 +1,25 @@
+from pprint import pprint as pp
+import requests
+import json
+
+API_KEY = '764a6eef4e124abcacd110142183011'
+API_URL = 'http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=' + API_KEY + '&q={}&format=json&date={}' #city and date
 
 
 
-API_KEY = 'f869c5190e2b71b78b212154ebe4f370'
-API_URL = 'api.openweathermap.org/data/2.5/weather?q={},{}' #city and country
+def query(city):
+	try:
+		print(city)
+		unparsed = requests.get(API_URL.format(city, '2018-11-30')).text #call for api
+		parsed = json.loads(unparsed)
+		mintemp = parsed['data']['weather'][0]['maxtempC']
+		maxtemp = parsed['data']['weather'][0]['mintempC']
 
+		pp(parsed)
 
-def query():
+	except Exception as e:
+		print(e)
+		return str("cant")
+		data = None
+	print(city)
+	
