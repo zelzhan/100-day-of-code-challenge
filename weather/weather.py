@@ -14,12 +14,9 @@ def query(city):
 		parsed = json.loads(unparsed)
 		mintemp = parsed['data']['weather'][0]['maxtempC']
 		maxtemp = parsed['data']['weather'][0]['mintempC']
-
-		pp(parsed)
-
+		data = [mintemp, maxtemp]
 	except Exception as e:
-		print(e)
-		return str("cant")
+		pp(e)
 		data = None
-	print(city)
+	return data
 	

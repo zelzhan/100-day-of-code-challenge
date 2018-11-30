@@ -6,13 +6,14 @@ from search import Search
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
-
+ 
 @app.route('/', methods=['GET', 'POST'])
 def index():
     form = Search()
     if form.validate_on_submit():
         city = request.form.get('city')
-        return query(city)
+        temps = query(city)
+        return redirect(url_for('result', temps = temps))
 
     return render_template('search.html', form = form)
 
@@ -21,7 +22,8 @@ def index():
 
 @app.route("/result")
 def result():
-    return render_template('results.html')
+    temps = request.args['temps'] #max and min temps, comes from the index page and passed as a parameter for render template    
+    return render_template('results.html', temps = temps)
 
 
 

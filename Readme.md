@@ -9,3 +9,4 @@
 * Created the index page of weather app
 * Added funciton to handle and work with Weather API
 * Added error handling and processing of api data
+* Created function to parse response 
