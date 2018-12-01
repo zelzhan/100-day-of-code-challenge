@@ -20,3 +20,4 @@
 * Modified bootstrapped search button and removed navbar
 * Added simple styling of page
 * Added and processed request variables
+* Calculated average for 24 hours temperature from the API
