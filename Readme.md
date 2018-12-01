@@ -10,3 +10,13 @@
 * Added funciton to handle and work with Weather API
 * Added error handling and processing of api data
 * Created function to parse response 
+
+## Day 2:
+### Learn:
+* How to work with Flask requests
+
+### Build:
+* Modified FlaskWTF forms, simplified and more readable
+* Modified bootstrapped search button and removed navbar
+* Added simple styling of page
+* Added and processed request variables
