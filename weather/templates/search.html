@@ -1,32 +1,18 @@
 {% extends 'layout.html' %}
 {% block content %}
-    <div class="content-section">
-        <form method="POST" action="">
-            {{ form.hidden_tag() }}
-            <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Log In</legend>
-                <div class="form-group">
-                    {{ form.city.label(class="form-control-label") }}
-                    {% if form.city.errors %}
-                        {{ form.city(class="form-control form-control-lg is-invalid") }}
-                        <div class="invalid-feedback">
-                            {% for error in form.city.errors %}
-                                <span>{{ error }}</span>
-                            {% endfor %}
-                        </div>
-                    {% else %}
-                        {{ form.city(class="form-control form-control-lg") }}
-                    {% endif %}
-                </div>
-            </fieldset>
-            <div class="form-group">
-                {{ form.search(class="btn btn-outline-info") }}
-            </div>
-        </form>
+<div class="s006">
+  <form method="POST">
+    {{ form.hidden_tag() }}
+    <fieldset>
+      <legend>What are you looking for?</legend>
+      <div class="inner-form">
+        <div class="input-field">
+            {{ form.city(id = "search", placeholder="Type the name of the city") }}
+        </div>
     </div>
-    <div class="border-top pt-3">
-        <small class="text-muted">
-            Need An Account? <a class="ml-2" href="{{ url_for('index') }}">Sign Up Now</a>
-        </small>
-    </div>
+</fieldset>
+</form>
+</form>
+</div>
 {% endblock content %}
+<!-- 

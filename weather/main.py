@@ -13,7 +13,7 @@ def index():
     if form.validate_on_submit():
         city = request.form.get('city')
         temps = query(city)
-        return redirect(url_for('result', temps = temps))
+        return redirect(url_for('result', temps = temps, city = city))
 
     return render_template('search.html', form = form)
 
@@ -22,8 +22,9 @@ def index():
 
 @app.route("/result")
 def result():
-    temps = request.args['temps'] #max and min temps, comes from the index page and passed as a parameter for render template    
-    return render_template('results.html', temps = temps)
+    temps = request.args.getlist('temps') #max and min temps, comes from the index page and passed as a parameter for render template    
+    city = request.args.get('city')
+    return render_template('results.html', temps = temps, city = city)
 
 
 

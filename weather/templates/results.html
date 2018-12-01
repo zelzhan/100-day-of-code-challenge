@@ -1,6 +1,11 @@
 {% extends 'layout.html' %}
 {% block content %}
 
-
+<div class='c001'>
+	<h1 class='hs006' style="font-size: 60px">{{ city.capitalize() }}</h2>
+	{% for temp in temps%}
+	<div style="font-size: 30px">{{ temp }} °C</div>
+	{% endfor %}
+</div>
 
 {% endblock content %}
