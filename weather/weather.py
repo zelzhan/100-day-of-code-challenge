@@ -14,7 +14,13 @@ def query(city):
 		parsed = json.loads(unparsed)
 		mintemp = parsed['data']['weather'][0]['maxtempC']
 		maxtemp = parsed['data']['weather'][0]['mintempC']
-		data = [mintemp, maxtemp]
+		cityFromApi = parsed['data']['request'][0]['query']
+		hourlyTemp = parsed['data']['weather'][0]['hourly']
+		average = 0
+		for hourTemp in hourlyTemp:
+			average += int(hourTemp['tempC'])
+		average /= len(hourlyTemp)
+		data = {'mintemp':mintemp, 'maxtemp':maxtemp, 'average':average, 'city':cityFromApi}
 	except Exception as e:
 		pp(e)
 		data = None
