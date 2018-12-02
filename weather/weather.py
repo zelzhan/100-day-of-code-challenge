@@ -7,10 +7,10 @@ API_URL = 'http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=' 
 
 
 
-def query(city):
+def query(city, time):
 	try:
 		print(city)
-		unparsed = requests.get(API_URL.format(city, '2018-11-30')).text #call for api
+		unparsed = requests.get(API_URL.format(city, time)).text #call for api
 		parsed = json.loads(unparsed)
 		mintemp = parsed['data']['weather'][0]['maxtempC']
 		maxtemp = parsed['data']['weather'][0]['mintempC']
@@ -25,4 +25,3 @@ def query(city):
 		pp(e)
 		data = None
 	return data
-	
