@@ -23,8 +23,9 @@
 * Calculated average for 24 hours temperature from the API
 
 ## Day 3:
-### Learn:
---
-
 ### Build:
 * Nu Schedule builder app for hackathon [link](https://github.com/zelzhan/schedule-builder)
+
+## Day 4 (Passive day):
+### Practice:
+* LeetCode AddTwoNumbers (Medium). [Solution](https://github.com/zelzhan/HackerRank-challenges-and-contests/blob/master/LeetCode/AddTwoNumbers.py) 
