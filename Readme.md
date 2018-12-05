@@ -21,3 +21,10 @@
 * Added simple styling of page
 * Added and processed request variables
 * Calculated average for 24 hours temperature from the API
+
+## Day 3:
+### Learn:
+-
+
+### Build:
+* Nu Schedule builder app for hackathon [https://github.com/zelzhan/schedule-builder](link)
