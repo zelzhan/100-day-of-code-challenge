@@ -24,7 +24,7 @@
 
 ## Day 3:
 ### Learn:
--
+--
 
 ### Build:
-* Nu Schedule builder app for hackathon [https://github.com/zelzhan/schedule-builder](link)
+* Nu Schedule builder app for hackathon [link](https://github.com/zelzhan/schedule-builder)
