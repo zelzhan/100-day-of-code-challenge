@@ -29,3 +29,8 @@
 ## Day 4 (Passive day):
 ### Practice:
 * LeetCode AddTwoNumbers (Medium). [Solution](https://github.com/zelzhan/HackerRank-challenges-and-contests/blob/master/LeetCode/AddTwoNumbers.py) 
+
+## Day 5:
+### Practice:
+* Hackerrank Find a string - [Solution](https://github.com/zelzhan/HackerRank-challenges-and-contests/blob/master/Python-Hackerrank/FindAString.py)
+* Hackerrank Merge The Tools - [Solution](https://github.com/zelzhan/HackerRank-challenges-and-contests/tree/master/Python-Hackerrank)
