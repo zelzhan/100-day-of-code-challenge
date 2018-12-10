@@ -4,5 +4,5 @@ def extract_day(time):
 			 "Jul":"07", "Aug":"08", "Sep":"09", "Oct":"10", "Nov":"11", "Dec":"12"}
 	time = time.split()
 	result = "{}-{}-{}".format(time[3], months[time[1]], time[2])
-	
+	 
 	return result
