@@ -35,7 +35,7 @@
 * Hackerrank Find a string - [Solution](https://github.com/zelzhan/HackerRank-challenges-and-contests/blob/master/Python-Hackerrank/FindAString.py)
 * Hackerrank Merge The Tools - [Solution](https://github.com/zelzhan/HackerRank-challenges-and-contests/tree/master/Python-Hackerrank)
 
-## Day 6 - 8:
-### Build (with collaboration of [karinabk](https://github.com/karinabk): 
+## Day 6 - 8 (Markethon 2.0, 1st place on the track):
+### Build (with collaboration of [karinabk](https://github.com/karinabk)): 
 * telegram bot for delete spam, restricting the users from chatting, clear status update notifications
 * Parsing script and sending the invitation to the chat via sms api
