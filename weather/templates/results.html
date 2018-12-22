@@ -2,10 +2,15 @@
 {% block content %}
 
 <div class='c001'>
-	<h1 class='hs006' style="font-size: 60px">{{ data['city'].capitalize() }}</h2>
-	<div style="font-size: 30px">{{ data['mintemp'] }} °C</div>
-	<div style="font-size: 30px">{{ data['maxtemp'] }} °C</div>
-	<div style="font-size: 30px">{{ data['average'] }} °C</div>
+	<h1 class='hs006' style="font-size: 60px">{{ data[0]['city'].capitalize() }}</h1>
 </div>
+{% for d in data %}
+<div class='c001'>
+	<div style="font-size: 30px"><h2>{{ d['year'] }}</h2></div>
+	<div style="font-size: 30px">{{ d['mintemp'] }} °C</div>
+	<div style="font-size: 30px">{{ d['maxtemp'] }} °C</div>
+	<div style="font-size: 30px">{{ d['average'] }} °C</div>
+</div>
+{% endfor %}
 
 {% endblock content %}

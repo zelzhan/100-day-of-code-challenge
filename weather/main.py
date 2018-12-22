@@ -3,7 +3,7 @@ from flask import Flask, flash, redirect, render_template, request, url_for
 from weather import query
 from pprint import pprint as pp
 from search import Search
-from helpers import extract_day
+from helpers import extract_day, jsonProcess
 import time
 import json
 
@@ -22,17 +22,16 @@ def index():
         time = extract_day(time)                   #extract day, month and year as dictionary
         city = request.form.get('city')
         data = query(city, time)
-        # localtime = time.localtime()      # tuple of localtime: 1 - year, 2 - mont, 3 - day, etc
-        # day_of_year = localtime[7]        # day of year: 1 - 366
+        print(data)
         return redirect(url_for('result', data = data, city = city))
 
     return render_template('search.html', form = form)
 
 @app.route("/result")
 def result():
-    data = request.args.getlist('data')[0] #max and min temps, comes from the index page and passed as a parameter for render template    
-    data = data.replace("\'", "\"")
-    data = json.loads(data)
+    data = request.args.getlist('data')        #max and min temps, comes from the index page and passed as a parameter for render template 
+    data = jsonProcess(data)
+    print("My data", data)
     return render_template('results.html', data=data)
 
 @app.route("/getTime", methods=['GET'])

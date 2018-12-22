@@ -1,3 +1,4 @@
+import json
 
 def extract_day(time):
 	months = {"Jan":"01", "Feb":"02", "Mar":"03", "Apr":"04", "May":"05", "Jun":"06",
@@ -5,4 +6,11 @@ def extract_day(time):
 	time = time.split()
 	result = "{}-{}-{}".format(time[3], months[time[1]], time[2])
 
-  	return result
+	return result
+
+def jsonProcess(data):
+	for i in range(len(data)):
+		data[i] = data[i].replace("\'", "\"")
+		data[i] = json.loads(data[i])
+	print(data)
+	return data
