@@ -45,5 +45,11 @@
 * Advnaced HTML elements
 
 ### Build:
+* Added sessions (not Flask built-in sessions)
 * Added js script to the weatherapp, that sends to the server side and process it
 * Added function that will parse and replace hardcoded weather date with user's local date
+
+## Day 10
+### Build:
+* Helper that will prettify and process json data for each year till 2009
+* Added function "allyears" that modifies query to make it easier to render (non-optimized)
