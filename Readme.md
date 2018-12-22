@@ -39,3 +39,11 @@
 ### Build (with collaboration of [karinabk](https://github.com/karinabk)): 
 * telegram bot for delete spam, restricting the users from chatting, clear status update notifications
 * Parsing script and sending the invitation to the chat via sms api
+
+## Day 9:
+### Learn:
+* Advnaced HTML elements
+
+### Build:
+* Added js script to the weatherapp, that sends to the server side and process it
+* Added function that will parse and replace hardcoded weather date with user's local date
