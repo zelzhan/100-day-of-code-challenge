@@ -62,5 +62,6 @@
 
 ## Day12:
 ### Learn:
-* Have learn all the alphabet for the regex
-* Finished all exercises for all operations on the hackerrank
+* Have learn all the alphabet for the RegEx
+* Finished all exercises for all operations of RegEx on the hackerrank
+* Finished stripe hackerrank challenge
