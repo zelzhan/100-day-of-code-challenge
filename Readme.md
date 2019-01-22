@@ -59,3 +59,8 @@
 ## Day11:
 ### Learn:
 * Mastered Cascading CSS variables and broweser compatability issues
+
+## Day12:
+### Learn:
+* Have learn all the alphabet for the regex
+* Finished all exercises for all operations on the hackerrank
