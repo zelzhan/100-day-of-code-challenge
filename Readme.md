@@ -65,3 +65,9 @@
 * Have learn all the alphabet for the RegEx
 * Finished all exercises for all operations of RegEx on the hackerrank
 * Finished stripe hackerrank challenge
+
+## Day13:
+### Learn:
+* Practiced *args and **kwargs  
+* Inside of decorators
+* 39% of Intermediate Python (book) by Muhammad Yasoob Ulah Khalid
