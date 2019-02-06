@@ -71,3 +71,13 @@
 * Practiced *args and **kwargs  
 * Inside of decorators
 * 39% of Intermediate Python (book) by Muhammad Yasoob Ulah Khalid
+
+
+## Day14:
+### Learn:
+* How does kernel of linux works
+* Advanced shell commands, background-foreground, pipelining, compressing-extracting, flags, environmental variables
+* Overall root directory structure of linux/unix systems
+
+### Build:
+* Build xgboost, lightgbm, catboost and parameter tuning on them. Obtained 89-91% of accuracy and 98% of positive observations on 50% of data.
