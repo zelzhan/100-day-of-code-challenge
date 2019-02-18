@@ -81,3 +81,7 @@
 
 ### Build:
 * Build xgboost, lightgbm, catboost and parameter tuning on them. Obtained 89-91% of accuracy and 98% of positive observations on 50% of data.
+
+## Day15:
+### Learn:
+* EcmaScript 6
