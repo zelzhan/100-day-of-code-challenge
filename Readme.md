@@ -85,3 +85,10 @@
 ## Day15:
 ### Learn:
 * EcmaScript 6
+
+## Day16-20:
+### Learrn:
+* Deep understanding of what is Node runtime environment on V8
+* Node module system
+* Tips and tricks for NPM
+* CRUD operations on Node.js, express, JOI validation
