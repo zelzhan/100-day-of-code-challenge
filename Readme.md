@@ -45,5 +45,55 @@
 * Advnaced HTML elements
 
 ### Build:
+* Added sessions (not Flask built-in sessions)
 * Added js script to the weatherapp, that sends to the server side and process it
 * Added function that will parse and replace hardcoded weather date with user's local date
+
+## Day 10
+### Learn:
+* Advanced CSS
+### Build:
+* Helper that will prettify and process json data for each year till 2009
+* Added function "allyears" that modifies query to make it easier to render (non-optimized)
+
+## Day11:
+### Learn:
+* Mastered Cascading CSS variables and broweser compatability issues
+
+## Day12:
+### Learn:
+* Have learn all the alphabet for the RegEx
+* Finished all exercises for all operations of RegEx on the hackerrank
+* Finished stripe hackerrank challenge
+
+## Day13:
+### Learn:
+* Practiced *args and **kwargs  
+* Inside of decorators
+* 39% of Intermediate Python (book) by Muhammad Yasoob Ulah Khalid
+
+
+## Day14:
+### Learn:
+* How does kernel of linux works
+* Advanced shell commands, background-foreground, pipelining, compressing-extracting, flags, environmental variables
+* Overall root directory structure of linux/unix systems
+
+### Build:
+* Build xgboost, lightgbm, catboost and parameter tuning on them. Obtained 89-91% of accuracy and 98% of positive observations on 50% of data.
+
+## Day15:
+### Learn:
+* EcmaScript 6
+
+## Day16:
+### Learn
+* Finished Intermediate Python (book) by Muhammad Yasoob Ulah Khalid
+
+## Day17-21:
+### Learn:
+* Deep understanding of what is Node runtime environment on V8
+* Node module system
+* Tips and tricks for NPM
+* CRUD operations on Node.js, express, JOI validation
+
