@@ -98,5 +98,6 @@
 * CRUD operations on Node.js, express, JOI validation
 
 ## Day22:
+### Build:
 * Added basic CRUD operations for vidly application
 * Created main frame of application
