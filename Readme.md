@@ -91,7 +91,7 @@
 * Finished Intermediate Python (book) by Muhammad Yasoob Ulah Khalid
 
 ## Day17-21:
-### Learrn:
+### Learn:
 * Deep understanding of what is Node runtime environment on V8
 * Node module system
 * Tips and tricks for NPM
