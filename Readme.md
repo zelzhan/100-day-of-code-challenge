@@ -86,9 +86,14 @@
 ### Learn:
 * EcmaScript 6
 
-## Day16-20:
+## Day16:
+### Learn
+* Finished Intermediate Python (book) by Muhammad Yasoob Ulah Khalid
+
+## Day17-21:
 ### Learrn:
 * Deep understanding of what is Node runtime environment on V8
 * Node module system
 * Tips and tricks for NPM
 * CRUD operations on Node.js, express, JOI validation
+
