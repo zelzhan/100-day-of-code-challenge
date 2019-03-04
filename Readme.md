@@ -101,3 +101,11 @@
 ### Build:
 * Added basic CRUD operations for vidly application
 * Created main frame of application
+
+## Day23:
+### Learn:
+* Work with asynchronous JS, callbacks, callback hell and how to resolve them without promises and await
+
+### Build:
+* Added testing asynchrounous JS to the vidly application
+* Yelp hackerrank challenge
