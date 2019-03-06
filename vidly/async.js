@@ -1,11 +1,30 @@
+/* ASYNCHROUNOUS JAVASCRIPT PRACTICE */
 console.log('Before');
-getUser(11).then( (user) => {
-	console.log(user);
-	getCourses(user).then((courses) => {
-		console.log(courses);
+// Async with promises
+getUser(11)
+	.then( (user) => {
+		console.log(user);
+		return getCourses(user)
 	})
-});
+	.then((courses) => {
+		logCourses(courses);
+	})
 console.log('After');
+
+
+
+// Async with async/await function
+
+setTimeout(() => {
+	getEverything(100);
+	}, 3000);
+
+async function getEverything(id){
+	let user = await getUser(id);
+	console.log(user);
+	let courses = await getCourses(user);
+	logCourses(courses);	
+}
 
 function getUser(id) {
 	return new Promise((resolve, reject) => {
