@@ -109,3 +109,8 @@
 ### Build:
 * Added testing asynchrounous JS to the vidly application
 * Yelp hackerrank challenge
+
+### Day24:
+### Learn:
+* Pracice of asynchrounous JS, converting from callbacks to promises and the to await/async.
+* Running of parallel promises
