@@ -14,7 +14,6 @@ console.log('After');
 
 
 // Async with async/await function
-
 setTimeout(() => {
 	getEverything(100);
 	}, 3000);
@@ -32,8 +31,7 @@ function getUser(id) {
 			console.log('Imitation of request to the database...')
 			resolve({id: id, name: "Elzhan"});
 		}, 1000)		
-	})
-	
+	})	
 }
 
 function getCourses(user){
@@ -53,6 +51,3 @@ function logUser(user){
 function logCourses(courses){
 	console.log(courses);
 }
-
-
-
