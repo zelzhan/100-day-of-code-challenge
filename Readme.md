@@ -109,3 +109,13 @@
 ### Build:
 * Added testing asynchrounous JS to the vidly application
 * Yelp hackerrank challenge
+
+## Day24:
+### Learn:
+* Pracice of asynchrounous JS, converting from callbacks to promises and the to await/async.
+* Running of parallel promises
+
+### Build:
+* Created the main frame of private data vizualization project
+* Parsed the rss and send it to the ajax in form of json
+* Configured Google API account with Google Analytics
