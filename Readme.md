@@ -119,3 +119,8 @@
 * Created the main frame of private data vizualization project
 * Parsed the rss and send it to the ajax in form of json
 * Configured Google API account with Google Analytics
+
+## Day25:
+### Learn (Road to the Dynamic programming master):
+* Read tonn of articles about mastering DP (the most useful ones [link1] (https://dev.to/nikolaotasevic/dynamic-programming--7-steps-to-solve-any-dp-interview-problem-3870), [link2] (https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/) 
+* 2 hours of MIT lectures about DP
