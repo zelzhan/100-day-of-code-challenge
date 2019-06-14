@@ -124,3 +124,12 @@
 ### Learn (Road to the Dynamic programming master):
 * Read tonn of articles about mastering DP (the most useful ones [link1](https://dev.to/nikolaotasevic/dynamic-programming--7-steps-to-solve-any-dp-interview-problem-3870), [link2](https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/)) 
 * 2 hours of MIT lectures about DP
+
+## Day25-28
+### Learn (Road to the Dynamic programming master):
+* Solved all problems from the easy and medium collection of "Top interview questions" related to the Dynamic Programming
+
+## Day29
+### Learn 
+* Black-white-grey = How to detec cycle in the graph
+* Application of topological sort (dfs)
